@@ -16,7 +16,7 @@ First, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/abeer93m/Iris_Recognition.git
-cd IRIS_IDentification
+cd Iris_Recognition
 ```
 
 ### 2. Set Up a Virtual Environment
