@@ -1,0 +1,15 @@
+# Ignore everything in the data folder
+data/*
+# Except this file
+!data/.gitkeep
+
+# Ignore everything in the checkpoints folder
+checkpoints/*
+# Except this file
+!checkpoints/.gitkeep
+
+processed_images
+
+eyelash_mitigated_results
+
+wandb
