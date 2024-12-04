@@ -87,7 +87,7 @@ This script will generate the necessary test pairs for evaluation.
 
 ### 2. Download the Checkpoint
 
-Download the pre-trained model [checkpoint](https://drive.google.com/drive/folders/1qzP03TlQgFECFwpqQQ11ZBoS6EMusgdC?usp=sharing) from the provided link and place it in the appropriate directory.
+Download the pre-trained model [checkpoint](https://drive.google.com/file/d/1FE1k5E935zW3zslN0CRQpL2IDRJFKy0Z/view?usp=sharing) from the provided link and place it in the appropriate directory.
 
 ### 3. Modify the Path
 
@@ -100,6 +100,7 @@ Finally, run the evaluation script to evaluate the model's performance on the te
 ```bash
 python src/scripts/evaluation.py
 ```
+This will provide you with the evaluation metrics based on the test pairs you generated.
 
 
 ### 8. Inference
@@ -108,9 +109,3 @@ I have placed images of User 00008 (geniuine), and User 00370 (Imposter). Just c
 ```bash
 python src/scripts/inference.py
 ```
-
-```
-
-This will provide you with the evaluation metrics based on the test pairs you generated.
-
----
