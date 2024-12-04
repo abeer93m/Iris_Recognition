@@ -6,7 +6,7 @@ Here's a template for your `README.md` file based on your instructions:
 
 ## Overview
 
-This project involves building and training a model for iris-based user identification. Follow the steps below to set up the environment, download necessary data, and train the model.
+Our project involves building and training a model for iris-based user identification using a VR-based dataset. Follow the steps below to set up the environment, download necessary data, and train the model.
 
 ## Steps to Get Started
 
@@ -105,7 +105,7 @@ This will provide you with the evaluation metrics based on the test pairs you ge
 
 ### 8. Inference
 The inferece pipeline includes all the steps to process the images and verify the users. To run the infernece, you need to place images of several users to test whether they belond to the database or not.
-I have placed images of User 00008 (geniuine), and User 00370 (Imposter). Just change the directory of the user you want to test and run the script:
+I have placed raw images of User 00008 (geniuine), and User 00370 (Imposter). Just change the directory of the user you want to test and run the script:
 ```bash
 python src/scripts/inference.py
 ```
