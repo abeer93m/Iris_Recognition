@@ -2,7 +2,7 @@ Here's a template for your `README.md` file based on your instructions:
 
 ---
 
-# IRIS Identification Project
+# User Identification for HMDs Using Iris Recognition 
 
 ## Overview
 
