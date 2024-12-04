@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ### 4. Download the Data
 
-Download the processed and normalized dataset of the 100 users from here: [data(data)https://drive.google.com/drive/folders/1uURMn_XhuDG2R6FHAU1KveuitWgYamg0?usp=sharing)] and place it in the "data" folder. 
+Download the processed and normalized dataset of the 100 users from here: [normalized_data](https://drive.google.com/drive/folders/1uURMn_XhuDG2R6FHAU1KveuitWgYamg0?usp=sharing). and place it in the "data" folder. 
 
 
 ### 5. Update the Paths
