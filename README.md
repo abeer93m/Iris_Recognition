@@ -98,6 +98,8 @@ Open the `src/scripts/evaluation.py` file and update the path to the checkpoint 
 Finally, run the evaluation script to evaluate the model's performance on the test pairs:
 
 ```bash
+python src/scripts/evaluation.py
+```
 
 
 ### 8. Inference
@@ -107,8 +109,6 @@ I have placed images of User 00008 (geniuine), and User 00370 (Imposter). Just c
 python src/scripts/inference.py
 ```
 
-
-python src/scripts/evaluation.py
 ```
 
 This will provide you with the evaluation metrics based on the test pairs you generated.
