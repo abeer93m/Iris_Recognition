@@ -15,7 +15,7 @@ This project involves building and training a model for iris-based user identifi
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Houssem-Ben-Salem/IRIS_IDentification.git
+git clone https://github.com/abeer93m/Iris_Recognition.git
 cd IRIS_IDentification
 ```
 
@@ -45,7 +45,8 @@ pip install -r requirements.txt
 
 ### 4. Download the Data
 
-Download the dataset from the provided [Google Drive link](https://drive.google.com/drive/folders/1e8ajI7hLv5odFqZywpL_GnhtZFP_7sSh?usp=sharing) and place it in the `data` folder. Make sure the folder structure matches the expected format.
+Download the processed and normalized dataset of the 100 users from here: and place it in the "data" folder. 
+
 
 ### 5. Update the Paths
 
@@ -62,8 +63,6 @@ python src/scripts/training.py
 ### 7. Track Your Training with Weights & Biases (WandB)
 
 To track your model training, it's recommended to use [Weights & Biases (WandB)](https://wandb.ai/). 
-
-- Create an account on WandB if you haven't already.
 - Log in to WandB by running:
 
 ```bash
@@ -99,6 +98,16 @@ Open the `src/scripts/evaluation.py` file and update the path to the checkpoint 
 Finally, run the evaluation script to evaluate the model's performance on the test pairs:
 
 ```bash
+
+
+### 8. Inference
+The inferece pipeline includes all the steps to process the images and verify the users. To run the infernece, you need to place images of several users to test whether they belond to the database or not.
+I have placed images of User 00008 (geniuine), and User 00370 (Imposter). Just change the directory of the user you want to test and run the script:
+```bash
+python src/scripts/inference.py
+```
+
+
 python src/scripts/evaluation.py
 ```
 
